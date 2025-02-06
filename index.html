@@ -17,7 +17,10 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <nav
+        class="navbar navbar-expand-lg bg-primary text-light"
+        data-bs-theme="dark"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/logo.png" alt="logo" width="50" height="50" />
@@ -58,7 +61,36 @@
     <main id="main-page">
       <!--Le contenu de mon site-->
     </main>
-    <footer>Le footer</footer>
+    <footer class="bg-primary text-light text-center footer">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h4>Nos Horaires</h4>
+          <p>Du Lundi au Dimanche 10:00h - 18:00h</p>
+        </div>
+        <div class="col-6 col-lg-4">
+          <p>
+            ARCADIA ZOO <br />
+            1 Rue Forêt de Brocélande <br />
+            35380 Paimpont <br />
+          </p>
+        </div>
+        <div class="col-6 col-lg-4">
+          <p>
+            Contactez-nous <br />
+            contact@arcadiazoo.com <br />
+            02 99 07 84 23 <br />
+          </p>
+        </div>
+      </div>
+      <!--Grid-->
+      <div class="py-4 border-top border-light-200">
+        <div class="flex items-center justify-center gap-6">
+          <span class="px-lg-4">© Arcadia 2025 </span>
+          <a href="#" class="text-light px_lg-4">Mentions légales</a>
+          <a href="#" class="text-light px-lg-4">Protection des données</a>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
