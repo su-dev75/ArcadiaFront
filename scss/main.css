@@ -11991,6 +11991,7 @@ span {
 
 .hero-scene {
   position: relative;
+  margin-bottom: 50px;
 }
 .hero-scene::before {
   content: "";
@@ -12007,7 +12008,7 @@ span {
   position: relative;
 }
 .hero-scene .hero-scene-content {
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
